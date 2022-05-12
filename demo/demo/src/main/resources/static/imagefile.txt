@@ -1,0 +1,23 @@
+FROM tomcat:latest
+COPY ./webapp.war /usr/local/tomcat/webapps
+RUN cp -r /usr/local/tomcat/webapps.dist/ webapps /usr/local/tomcat/webapps
+
+
+<html>
+<head>
+<title> Aetna </title>
+</head>
+<body style = "background-image:url('images/github3.jpg'); background-size: 100%">
+<h2 ALIGN=CENTER>Hello world!</h2>
+</body>
+</html>
+
+
+<html>
+<head>
+<title>   Welcome To Aetna </title>
+</head>
+<body style = "background-image:url('https://tse1.mm.bing.net/th?id=OIP.Jl556_Su_AI3MDen21B3igHaDt&pid=Api&rs=1&c=1&qlt=95&w=191&h=95'); background-size: 100%">
+<h2 ALIGN=CENTER>Hello world!</h2>
+</body>
+</html>
